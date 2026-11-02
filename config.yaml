@@ -13,4 +13,4 @@ max_running_requests: 1
 
 # Доля памяти карты под веса и KV. Пусто — SGLang считает сам.
 # Если старт падает с нехваткой памяти, снизьте значение, например до 0.80.
-mem_fraction_static:
+mem_fraction_static: 0.90
