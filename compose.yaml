@@ -9,8 +9,8 @@ services:
     env_file: .env
     environment:
       HF_HOME: /cache/huggingface
-      HF_HUB_CACHE: /cache/huggingface
-      HUGGINGFACE_HUB_CACHE: /cache/huggingface
+      HF_HUB_CACHE: /cache/huggingface/hub
+      HUGGINGFACE_HUB_CACHE: /cache/huggingface/hub
       CLEF_CONFIG: /config/config.yaml
     volumes:
       - ./config.yaml:/config/config.yaml:ro
